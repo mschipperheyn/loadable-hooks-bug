@@ -9,4 +9,4 @@ const MemoPage = () => {
 	return <div>{data.stationWithEvaId.name}</div>;
 };
 
-export default React.useMemo(MemoPage);
+export default React.memo(MemoPage);
